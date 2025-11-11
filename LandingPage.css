@@ -1,0 +1,42 @@
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.landing-content {
+    background: #fff;
+    padding: 4rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-name {
+    font-size: 3.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 2.5rem;
+}
+
+.login-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #2980b9;
+}
